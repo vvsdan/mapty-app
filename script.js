@@ -203,7 +203,7 @@ class App {
       .openPopup();
   }
 
-  //********** RENDER WORKOUT INFORMATIORN ON LEFT SIDE **********//
+  //********** RENDER WORKOUT INFORMATION ON LEFT SIDE **********//
 
   _renderWorkout(workout) {
     let html = `<li class="workout workout--${workout.type}" data-id="${
